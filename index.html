@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Red+Hat+Display&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/slick.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<div class="popup" id="popup">
+    <div class="popup__body">
+        <div class="popup__content">
+            <a class="popup__content-close" href="#">X</a>
+            <h1 class="popup__content-title">Заказать консультацию</h1>
+            <form class="popup__form">
+                    <input class="popup__form-input" type="text" placeholder="Your Name">
+                    <input class="popup__form-input" type="text" placeholder="Your number">
+                    <button class="popup__form-button">order a call</button>
+            </form>
+        </div>
+    </div>
+</div>
+<body id="body">
+<div class="wrapper">
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <a class="header__logo" href="#">
+                    <img class="header__logo-img" src="images/logo.svg" alt="logo">
+                </a>
+                <div class="header__burger" id="hamb" >
+                    <span></span>
+                </div>
+                <div class="header__inner">
+                    <nav class="header__menu" id="menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href=".html">About</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href=".html">Free Workouts</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href=".html">Shop</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                <a class="header__button" href="#popup">Book a call</a>
+            </div>
+        </div>
+    </header>
+<main class="main">
+    <section class="homepage">
+        <div class="container">
+            <div class="homepage__content">
+                <div class="homepage__foto">
+                    <h1 data-wow-delay=".5s" class="homepage__foto-name wow animate__fadeInLeft">Sandra Lyons</h1>
+                    <div class="homepage__foto-image">
+                        <img data-wow-delay=".7s" class="homepage__foto-img wow animate__fadeInLeftBig" src="images/homepage.jpg" alt="foto homepage" >
+                    </div>
+                </div>
+                <div class="homepage__info">
+                    <h3 class="homepage__info-title3">Hi i'm Sandra Lyons</h3>
+                    <h1 class="homepage__info-title1">Your go to online fitness trainer and nutritionist.</h1>
+                    <p class="homepage__info-text">After getting a bachelors in nutrition and fitness training I started working with people all around and changing their lives forever.</p>
+                    <a class="homepage__info-button" href="#popup" >Online coaching</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blue">
+        <div class="container-blue">
+            <div class="blue__content">
+                <a data-wow-delay=".5s" class="blue__content-title wow animate__bounce" href="#">happy clients</a>
+                <a data-wow-delay="1s" class="blue__content-title wow animate__bounce" href="#">of experience</a>
+                <a data-wow-delay="1.5s" class="blue__content-title wow animate__bounce" href="#">following me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey">
+        <div class="journey-content">
+            <div class="journey-content__block">
+                <h1 class="journey-content__block-title">The journey to a healthier body starts right now</h1>
+                <a class="journey__info-button" href="#popup">Online coaching</a>
+            </div>
+            <div class="journey-content__wrapper">
+                <div class="journey-content__item">
+                    <div class="journey-content__item-foto">
+                        <img class="journey-content__item-img" src="images/journey1.jpg" alt="journey img">
+                    </div>
+                    <h2 class="journey-content__item-title">Learn to live a healthy life with fitness</h2>
+                    <p class="journey-content__item-text">Changing your lifestyle with a fast paced life may seem hard or impossible, but with small steps each week you can achieve your dream physique and live a healthier life.</p>
+                </div>
+                <div class="journey-content__item">
+                    <div class="journey-content__item-foto">
+                        <img class="journey-content__item-img" src="images/journey2.jpg" alt="journey img">
+                    </div>
+                    <h2 class="journey-content__item-title">Understand how to do excercises properly</h2>
+                    <p class="journey-content__item-text">Just going to the gym and lifting weights won't make you healthy, after all it may even cause some harm to your body. We teach proper exercise techniques</p>
+                </div>
+                <div class="journey-content__item">
+                    <div class="journey-content__item-foto">
+                        <img class="journey-content__item-img" src="images/journey3.jpg" alt="journey img">
+                    </div>
+                    <h2 class="journey-content__item-title">Track your progress weekly</h2>
+                    <p class="journey-content__item-text">We're tracking your goal weight with body fat measures, weight and general feeling. You may have the same body weight but feel 10x better.</p>
+                </div>
+                <div class="journey-content__item">
+                    <div class="journey-content__item-foto">
+                        <img class="journey-content__item-img" src="images/journey4.jpg" alt="journey img">
+                    </div>
+                    <h2 class="journey-content__item-title">Follow a specific plan made just for you</h2>
+                    <p class="journey-content__item-text">Everyone is different, and we know it. That's why all of our clients get a programme specific just for their lifestyle and body tipe. This give the best possible results.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="freehome1">
+        <div class="container">
+            <div class="freehome1__block">
+                <h1 class="freehome1__block-title">Free home workouts and fitness plans</h1>
+                <p class="freehome1__block-text">With free online classes people who don’t have the time or money to afford a personal coach can make change their lives forever.</p>
+                <a class="freehome1__block-button"  href="#popup">View all</a>
+            </div>
+            <div class="freehome1__content">
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/freehome1.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">30 Minutes</p>
+                        <p class="freehome1__inner-title">Free</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">The Perfect Outdoor Workout</a>
+                    <a class="freehome1__item-link" href="#">Train now</a>
+                </div>
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/freehome2.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">1 Hour</p>
+                        <p class="freehome1__inner-title">Free</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">Back Day</a>
+                    <a class="freehome1__item-link" href="#">Train now</a>
+                </div>
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/freehome3.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">40 Minutes</p>
+                        <p class="freehome1__inner-title">Free</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">The Ultimate Abs Tabata</a>
+                    <a class="freehome1__item-link" href="#">Train now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="freehome2">
+        <div class="container">
+            <div class="freehome2__block">
+                <h1 class="freehome2__block-title">Free home workouts and fitness plans</h1>
+                <p class="freehome2__block-text">I’ve created these premium fitness classes for everyone starting from beginner to advanced level with an in depth FAQ.</p>
+            </div>
+            <div class="freehome1__content">
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/journey1.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">3 days a week</p>
+                        <p class="freehome1__inner-title">$ 19.99 USD</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">Home Burn</a>
+                    <a class="freehome1__item-link" href="#">View</a>
+                </div>
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/freehome2-3.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">30 days</p>
+                        <p class="freehome1__inner-title">$ 29.99 USD</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">Shedded Meal Plan</a>
+                    <a class="freehome1__item-link" href="#">View</a>
+                </div>
+                <div class="freehome1__item">
+                    <div class="freehome1__item-foto">
+                        <img class="freehome1__item-img" src="images/freehome2-4.jpg" alt="freehome1 img">
+                    </div>
+                    <div class="freehome1__inner">
+                        <p class="freehome1__inner-time">7 Days a Week</p>
+                        <p class="freehome1__inner-title freehome2__inner-title">$ 89.99 USD</p>
+                    </div>
+                    <a class="freehome1__item-title" href="#">High Intensity Training</a>
+                    <a class="freehome1__item-link" href="#">View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sweat">
+        <h1 class="sweat__title">SWEAT. GAIN. DO.</h1>
+    </section>
+
+    <section class="whocan">
+        <div class="whocan__content">
+            <div class="whocan__info">
+                <div class="whocan__info-block">
+                    <h1 class="whocan__info-block-title">Who can benefit from a fully custom online fitness plan and nutrition?</h1>
+                    <p class="whocan__info-block-text">Literally everyone. I’m currently helping people from 12 to 60+ years old. Everyone is getting an adjusted program and a meal plan.</p>
+                    <a class="whocan__info-block-dutton"  href="#popup">Book a call</a>
+                </div>
+            </div>
+            <div class="whocan__foto">
+                <div class="whocan__foto-block">
+                    <img class="whocan__foto-block-img" src="images/who.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="water">
+        <div class="water__foto">
+            <img class="water__foto-img" src="images/water.jpg" alt="water img">
+        </div>
+    </section>
+
+    <section class="tricks">
+        <div class="container">
+            <div class="tricks__content">
+                <div class="tricks__block">
+                    <h1 class="tricks__block-title">Read our tips and tricks</h1>
+                    <p class="tricks__block-text">We post a lot of free content around health fitness and general wellbeing. Make sure to check all of our posts down below.</p>
+                    <a class="tricks__block-button" href="#popup">view all posts</a>
+                </div>
+                <div class="tricks__foto">
+                    <div class="tricks__foto-image">
+                        <img class="tricks__foto-img wow animate__fadeInLeftBig" src="images/tricks1.jpg" alt="img">
+                    </div>
+                    <div class="tricks__foto-image">
+                        <img class="tricks__foto-img" src="images/tricks2.jpg" alt="img">
+                    </div>
+                    <div class="tricks__foto-image">
+                        <img class="tricks__foto-img wow animate__fadeInRightBig" src="images/tricks3.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="social">
+        <div class="social__container">
+            <div class="social__container-wrapper">
+                <div data-wow-delay="2s" class="social__block wow animate__bounceInLeft">
+                    <a class="social__block-image-link" href="#">
+                        <img class="social__block-img" src="images/twitter.svg" alt="twitter img">
+                    </a>
+                    <a class="social__block-link" href="#">@fitnesso</a>
+                </div>
+                <div data-wow-delay="1.5s" class="social__block wow animate__bounceInLeft">
+                    <a class="social__block-image-link" href="#">
+                        <img class="social__block-img" src="images/inst.svg" alt="inst img">
+                    </a>
+                    <a class="social__block-link" href="#">@fitnesso</a>
+                </div>
+                <div data-wow-delay="1s" class="social__block wow animate__bounceInLeft">
+                    <a class="social__block-image-link" href="#">
+                        <img class="social__block-img" src="images/in.svg" alt="in img">
+                    </a>
+                    <a class="social__block-link" href="#">Fitnesso</a>
+                </div>
+                <div data-wow-delay=".5s" class="social__block wow animate__bounceInLeft">
+                    <a class="social__block-image-link" href="#">
+                        <img class="social__block-img" src="images/you.svg" alt="youtube img">
+                    </a>
+                    <a class="social__block-link" href="#">/Fitnesso</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__content">
+            <div class="social__foto">
+                <div class="social__foto-image">
+                    <img class="social__foto-img" src="images/social1.png" alt="social img">
+                </div>
+            </div>
+            <div class="social__foto">
+                <div class="social__foto-image">
+                    <img class="social__foto-img" src="images/social2.png" alt="social img">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__content">
+                <a class="footer__content-logo" >
+                    <img src="images/logowhite.svg" alt="logo">
+                </a>
+                <div class="footer__contact">
+                    <h3 class="footer__contact-title">Contact</h3>
+                    <a class="footer__contact-email" href="mailto:contact@fitnesso.com">contact@fitnesso.com</a>
+                    <h3 class="footer__contact-title">Licencing</h3>
+                    <a class="footer__contact-link" href="#">Copyright Flow Ninja</a>
+                    <a class="footer__contact-link" href="#">Powered By Webflow</a>
+                    <a class="footer__contact-link" href="#">Licencing</a>
+                    <a class="footer__contact-link" href="#">Support</a>
+                </div>
+                <div class="footer__contact">
+                    <h3 class="footer__contact-title">Explore</h3>
+                    <a class="footer__contact-link" href="#">Premium Courses</a>
+                    <a class="footer__contact-link" href="#">Free Courses</a>
+                    <a class="footer__contact-link" href="#">Blog</a>
+                    <a class="footer__contact-link" href="#">About</a>
+                    <a class="footer__contact-link" href="#">Contact</a>
+                    <a class="footer__contact-link" href="#">Style Guide</a>
+                </div>
+            </div>
+            <div class="footer__payment">
+                <a class="footer__payment-link" href="#">
+                    <img src="images/pp.svg" alt="pay">
+                </a>
+                <a class="footer__payment-link" href="#">
+                    <img src="images/stripe.svg" alt="pay">
+                </a>
+                <a class="footer__payment-link" href="#">
+                    <img src="images/pay.svg" alt="pay">
+                </a>
+                <a class="footer__payment-link" href="#">
+                    <img src="images/cart.svg" alt="pay">
+                </a>
+                <a class="footer__payment-link" href="#">
+                    <img src="images/american.svg" alt="pay">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
